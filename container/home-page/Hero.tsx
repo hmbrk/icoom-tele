@@ -8,11 +8,11 @@ export default function Hero() {
 		<section className="relative w-full min-h-[150vh] bg-primary overflow-hidden">
 			{/* Animated Earth Background */}
 			<div className="absolute inset-0 flex items-center justify-center opacity-80">
-				<div className="relative w-[1000px] h-[1000px] lg:w-[800px] lg:h-[800px] md:w-[600px] md:h-[600px] sm:w-[500px] sm:h-[500px]">
+				<div className="relative w-[150vw] h-[150vh] lg:w-[130vw] lg:h-[130vh] md:w-[120vw] md:h-[120vh] sm:w-[110vw] sm:h-[110vh]">
 					<img
 						src="https://gifdb.com/images/high/earth-spinning-to-left-n19e2i274qbb8afu.gif"
 						alt="Spinning Earth"
-						className="w-full h-full object-contain"
+						className="w-full h-full object-cover"
 					/>
 				</div>
 			</div>
